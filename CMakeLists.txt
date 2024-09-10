@@ -13,4 +13,4 @@ include_directories(
     ${EIGEN3_INCLUDE_DIRS}
 )
 
-add_executable(${PROJECT_NAME}_example example/sdqp_example.cpp)
+add_executable(${PROJECT_NAME}_example example/sdqp_example2.cpp)

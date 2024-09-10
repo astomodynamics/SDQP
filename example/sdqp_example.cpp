@@ -14,7 +14,9 @@ int main(int argc, char **argv)
     Eigen::Matrix<double, -1, 3> A(m, 3); // constraint matrix
     Eigen::VectorXd b(m);                 // constraint bound
 
-    Q << 2.0, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 2.0;
+    Q << 2.0, 1.0, 1.0, 
+         1.0, 2.0, 1.0, 
+         1.0, 1.0, 2.0;
     c << 1.2, 2.5, -10.0;
 
     A << 1.0, 0.0, 0.0,
